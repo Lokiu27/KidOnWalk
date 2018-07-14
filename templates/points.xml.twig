@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<markers>
+      {% for item in playgrounds %}
+      <marker name="{{ item.name }}" lat="{{ item.X }}" lng="{{ item.Y }}"/>
+    
+      {% endfor %}
+</markers>
